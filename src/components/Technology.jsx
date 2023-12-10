@@ -15,12 +15,16 @@ function Technology() {
     <section className='section-technology section-padding'>
       <Container>
         <Row>
-          <h2 className='heading'>Technology We Used</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-            aperiam inventore, non quidem harum qui vero ea, nihil vel quod
-            mollitia dolorem iusto aliquam, modi nemo autem sed odio quas?
-          </p>
+          <Col md={10}>
+            <h2 className='heading'>Technology We Used</h2>
+            <p className='pt-3 pe-5'>
+              Stay ahead in the competitive landscape with Fortune Tech. Our
+              technical expertise ensures your company&apos;s success through
+              custom software development. We leverage the latest technology for
+              outsourcing, delivering solutions that propel your business
+              forward
+            </p>
+          </Col>
         </Row>
         <Row className='pt-3'>
           <Col>

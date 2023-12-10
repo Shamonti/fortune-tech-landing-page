@@ -8,13 +8,17 @@ function Experience() {
         <Row>
           <Col className='d-flex flex-column justify-content-center'>
             <h3>
-              title <span className='green-text'>text</span>
+              7 Years of Experience in the{' '}
+              <span className='green-text'>
+                World of Building World-Class Business Solutions
+              </span>
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              expedita sequi, et, dolorem at dolor consectetur accusantium
-              maxime nisi excepturi, a quo. Saepe itaque quas suscipit quam cum
-              possimus nobis?
+              For 7 years, Fortune Tech users have entrusted us to power their
+              diverse business units. Our software addresses every concern
+              seamlessly. As we expand, new clients choose us for our proven
+              trustworthiness. Your success is our legacy, and our commitment to
+              reliability stands unwavering.
             </p>
           </Col>
           <Col>

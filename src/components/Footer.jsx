@@ -14,15 +14,16 @@ function Footer() {
             <ul className='list-unstyled'>
               <li>
                 <img src={Map} />
-                &nbsp; 6th floor
+                &nbsp; 6th floor, Madina Shopping Mall, Bosila City Developers,
+                Dhaka 1207
               </li>
               <li>
                 <img src={Mail} />
-                &nbsp; 6th floor
+                &nbsp; info@caremebd.com
               </li>
               <li>
                 <img src={Phone} />
-                &nbsp; 6th floor
+                &nbsp; 09678-008899
               </li>
             </ul>
           </Col>
@@ -30,13 +31,16 @@ function Footer() {
             <h5>Our Products</h5>
             <ul className='list-unstyled'>
               <li>
-                <img src={Arrow} /> &nbsp; Proton
+                <img src={Arrow} /> &nbsp; Proton Commerce
               </li>
               <li>
-                <img src={Arrow} /> &nbsp; Proton
+                <img src={Arrow} /> &nbsp; Proton Inventory Management
               </li>
               <li>
-                <img src={Arrow} /> &nbsp; Proton
+                <img src={Arrow} /> &nbsp; Proton Mobile Apps
+              </li>
+              <li>
+                <img src={Arrow} /> &nbsp; Caremebd commerce
               </li>
             </ul>
           </Col>
@@ -44,13 +48,16 @@ function Footer() {
             <h5>Useful Links</h5>
             <ul className='list-unstyled'>
               <li>
-                <img src={Arrow} /> &nbsp; Proton
+                <img src={Arrow} /> &nbsp; About us
               </li>
               <li>
-                <img src={Arrow} /> &nbsp; Proton
+                <img src={Arrow} /> &nbsp; contact us
               </li>
               <li>
-                <img src={Arrow} /> &nbsp; Proton
+                <img src={Arrow} /> &nbsp; FAQ
+              </li>
+              <li>
+                <img src={Arrow} /> &nbsp; Career
               </li>
             </ul>
           </Col>
@@ -59,14 +66,9 @@ function Footer() {
           </Col>
         </Row>
         <hr></hr>
-        <Row className='text-ceter'>
-          <Col>
-            <span>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptatum dicta nam, consequuntur, quasi accusamus consectetur
-              distinctio obcaecati natus accusantium id fuga tempore. Dolorum
-              rerum eius doloribus temporibus? Quia, similique dolor?
-            </span>
+        <Row className='text-center pb-5'>
+          <Col className='pb-5'>
+            <span>© 2023 Fortune Tech Limited. All Rights Reserved.</span>
           </Col>
         </Row>
       </Container>

@@ -15,7 +15,7 @@ function Products() {
           </p>
         </Row>
         <Row className='pt-3'>
-          <Col>
+          <Col md={12} className='pb-4'>
             <Card>
               <Card.Img variant='top' src={CareMeLogo} />
 
@@ -29,7 +29,7 @@ function Products() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={12} className='pb-4'>
             <Card>
               <Card.Img variant='top' src={FortuneLogo} />
 
@@ -43,7 +43,7 @@ function Products() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={12}>
             <Card>
               <Card.Img variant='top' src={ProtonLogo} />
 

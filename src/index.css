@@ -292,3 +292,42 @@ footer hr {
 
   padding-top: 10px;
 }
+
+footer span {
+  font-weight: 600;
+}
+
+/* Small devices (phones) */
+@media only screen and (min-width: 576px) {
+  /* Styles for screens 576px and larger */
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) {
+  .about-section .margin {
+    margin-top: -20px;
+  }
+
+  .about-section .card {
+    padding: 30px 10px;
+    margin-right: 0;
+    height: 280px;
+  }
+
+  .products-section .card img {
+    height: 80px;
+    width: min-content;
+
+    margin: 15px 0px 0px 15px;
+  }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 992px) {
+  /* Styles for screens 992px and larger */
+}
+
+/* Extra large devices (large desktops) */
+@media only screen and (min-width: 1200px) {
+  /* Styles for screens 1200px and larger */
+}
