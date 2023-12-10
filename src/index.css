@@ -10,7 +10,7 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 14px;
-  color: rgb(17, 117, 188);
+  color: #1175bc;
 }
 
 .navbar-nav .nav-link.dropdown-toggle::after {
@@ -88,4 +88,32 @@ body {
 
 .about-section .card-body {
   text-align: center;
+}
+
+.section-padding {
+  padding: 75px 0;
+}
+
+.services-section .card {
+  border-color: #1175bc;
+  width: auto !important;
+}
+
+.services-section .card img {
+  height: 50px;
+  width: 50px;
+
+  margin: 15px 0px 0px 15px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1175bc;
+}
+
+.sub-heading {
+  font-size: 16px;
+  font-weight: 900;
+  color: #4e4b4b;
 }
