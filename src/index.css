@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
 .navbar-nav .nav-link {
@@ -140,4 +141,8 @@ body {
 .experience-section p {
   font-size: 16px;
   font-weight: 600;
+}
+
+.section-technology p {
+  font-weight: 500;
 }
