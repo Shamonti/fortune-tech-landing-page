@@ -10,7 +10,9 @@ function Products() {
       <Container>
         <Row>
           <h2 className='heading'>Exclusive Products</h2>
-          <p className='sub-heading'>Top notch services we offer</p>
+          <p className='sub-heading'>
+            Unleash the Power of Advanced Technology
+          </p>
         </Row>
         <Row className='pt-3'>
           <Col>
@@ -18,10 +20,11 @@ function Products() {
               <Card.Img variant='top' src={CareMeLogo} />
 
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Fortune Commerce</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -31,10 +34,11 @@ function Products() {
               <Card.Img variant='top' src={FortuneLogo} />
 
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Fortune Inventory</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -44,10 +48,11 @@ function Products() {
               <Card.Img variant='top' src={ProtonLogo} />
 
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title> Mobile apps</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
