@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #1175bc;
+}
+
+.navbar-nav .nav-link.dropdown-toggle::after {
+  display: none;
+}
