@@ -2,8 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
+import Calendar from '../assets/calendar.png';
 
 function Hero() {
   return (
@@ -20,18 +19,19 @@ function Hero() {
         <Row>
           <Col xs={12} md={7}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              eius vel voluptas deleniti sed facilis reiciendis dicta voluptate
-              dolor quod, veritatis cum, sit tenetur voluptatem nobis inventore
-              tempore modi? Reiciendis.Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Error eius vel voluptas deleniti.
+              Empower Your Business with Fortune Tech Limited. Unlock
+              cutting-edge solutions to outpace competition. Specializing in
+              innovation for growth and efficiency, our skilled developers craft
+              bespoke, high-quality software. Stay at the forefront with our
+              commitment to the latest technologies, ensuring access to the most
+              advanced solutions for your success.
             </p>
           </Col>
         </Row>
         <Row>
           <Col>
             <Button className='custom-btn'>
-              <FontAwesomeIcon icon={faCalendarDays} />
+              <img src={Calendar} />
               &nbsp; Schedule Appointment
             </Button>
           </Col>

@@ -8,43 +8,46 @@ function About() {
       <Container>
         <Row className='margin'>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <div className='circle'>
                 <Card.Img variant='top' src={Doctor} />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Advanced software</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  We have multiple solutions that are intended to assist
+                  businesses in streamlining their operations and increasing
+                  efficiency.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <div className='circle'>
                 <Card.Img variant='top' src={Doctor} />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Expert Developers</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Our expert software developers know how to make high-tech
+                  software solutions that can help businesses streamline their
+                  operations.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <div className='circle'>
                 <Card.Img variant='top' src={Doctor} />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Quality Solution</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  We provide quality solutions to clients that are designed to
+                  meet the specific needs of businesses and are built to high
+                  standards.
                 </Card.Text>
               </Card.Body>
             </Card>

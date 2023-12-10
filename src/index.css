@@ -48,15 +48,23 @@ body {
   font-weight: 500;
 }
 
+.hero-section img {
+  height: 18px;
+  width: 18px;
+}
+
 .hero-section .custom-btn {
   background-color: rgb(140, 198, 63);
   border-radius: 30px;
   border: none !important;
   outline: none !important;
   padding: 10px 20px;
+  display: flex;
+  align-items: center;
 
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 1;
 }
 
 .btn:active {
@@ -80,7 +88,8 @@ body {
   border-radius: 20px;
   border: none !important;
   padding: 50px 20px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-right: 15px;
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.39);
 
   display: flex;
   justify-content: center;
@@ -89,6 +98,18 @@ body {
 
 .about-section .card-body {
   text-align: center;
+  color: black;
+  padding: 15px 10px;
+}
+
+.about-section .card-body .card-title {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.about-section .card-body .card-text {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .section-padding {
@@ -209,4 +230,33 @@ body {
   color: #1175bc;
 
   padding-top: 15px;
+}
+
+footer {
+  background-color: #1175bc;
+  color: #fff;
+}
+
+footer h5 {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+footer li {
+  font-weight: 600;
+
+  padding-top: 10px;
+}
+
+footer li img {
+  height: 20px;
+  width: 20px;
+}
+
+footer hr {
+  color: white !important;
+  opacity: 1;
+
+  padding-top: 10px;
 }
