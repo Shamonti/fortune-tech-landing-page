@@ -1,5 +1,6 @@
 import Menu from './components/Menu';
 import Hero from './components/Hero';
+import About from './components/About';
 import Services from './components/Services';
 import Products from './components/Products';
 import Experience from './components/Experience';
@@ -17,6 +18,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <About />
         <Services />
         <Products />
         <Experience />

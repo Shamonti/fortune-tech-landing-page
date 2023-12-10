@@ -63,3 +63,29 @@ body {
   background-color: rgba(140, 198, 63, 0.75) !important;
   border-color: none !important;
 }
+
+.about-section .margin {
+  margin-top: -50px;
+}
+
+.about-section .circle {
+  height: 50px;
+  width: 50px;
+
+  background-color: rgba(17, 117, 188, 0.03);
+}
+
+.about-section .card {
+  border-radius: 20px;
+  border: none !important;
+  padding: 50px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section .card-body {
+  text-align: center;
+}
