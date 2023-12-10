@@ -10,9 +10,56 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   font-size: 14px;
-  color: #1175bc;
+  color: rgb(17, 117, 188);
 }
 
 .navbar-nav .nav-link.dropdown-toggle::after {
   display: none;
+}
+
+.hero-section {
+  background: linear-gradient(
+      0deg,
+      rgba(17, 117, 188, 0.75),
+      rgba(17, 117, 188, 0.75)
+    ),
+    url('../src/assets/banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 56px;
+}
+
+.hero-section .green-text {
+  color: #8cc63f;
+}
+
+.hero-section p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hero-section .custom-btn {
+  background-color: rgb(140, 198, 63);
+  border-radius: 30px;
+  border: none !important;
+  outline: none !important;
+  padding: 10px 20px;
+
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn:active {
+  color: var(--bs-btn-active-color);
+  background-color: rgba(140, 198, 63, 0.75) !important;
+  border-color: none !important;
 }
