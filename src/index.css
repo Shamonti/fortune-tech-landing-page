@@ -38,7 +38,7 @@ body {
   font-size: 56px;
 }
 
-.hero-section .green-text {
+.green-text {
   color: #8cc63f;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .section-padding {
-  padding: 75px 0;
+  padding: 75px 0 0 0;
 }
 
 .services-section .card {
@@ -106,6 +106,19 @@ body {
   margin: 15px 0px 0px 15px;
 }
 
+.products-section .card {
+  border-color: #1175bc;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.products-section .card img {
+  height: 80px;
+  width: min-content;
+
+  margin: 15px 0px 0px 15px;
+}
+
 .heading {
   font-size: 40px;
   font-weight: 600;
@@ -116,4 +129,15 @@ body {
   font-size: 16px;
   font-weight: 900;
   color: #4e4b4b;
+}
+
+.experience-section h3 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #1175bc;
+}
+
+.experience-section p {
+  font-size: 16px;
+  font-weight: 600;
 }

@@ -15,7 +15,7 @@ function Services() {
         </Row>
         <Row className='pt-3'>
           <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <Card.Img variant='top' src={UI} />
 
               <Card.Body>
@@ -28,7 +28,7 @@ function Services() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <Card.Img variant='top' src={Ecommerce} />
 
               <Card.Body>
@@ -41,7 +41,7 @@ function Services() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <Card.Img variant='top' src={App} />
 
               <Card.Body>
@@ -54,7 +54,7 @@ function Services() {
             </Card>
           </Col>
           <Col md={3}>
-            <Card style={{ width: '18rem' }}>
+            <Card>
               <Card.Img variant='top' src={Marketing} />
 
               <Card.Body>
