@@ -1,6 +1,8 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import Doctor from '../assets/doctor.png';
+import Code from '../assets/code.png';
+import People from '../assets/people.png';
 
 function About() {
   return (
@@ -10,7 +12,7 @@ function About() {
           <Col>
             <Card>
               <div className='circle'>
-                <Card.Img variant='top' src={Doctor} />
+                <Card.Img variant='top' src={Code} />
               </div>
               <Card.Body>
                 <Card.Title>Advanced software</Card.Title>
@@ -25,7 +27,7 @@ function About() {
           <Col>
             <Card>
               <div className='circle'>
-                <Card.Img variant='top' src={Doctor} />
+                <Card.Img variant='top' src={People} />
               </div>
               <Card.Body>
                 <Card.Title>Expert Developers</Card.Title>

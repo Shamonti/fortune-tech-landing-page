@@ -81,7 +81,7 @@ body {
   height: 50px;
   width: 50px;
 
-  background-color: rgba(17, 117, 188, 0.03);
+  /* background-color: rgba(17, 117, 188, 0.03); */
 }
 
 .about-section .card {
@@ -119,6 +119,10 @@ body {
 .services-section .card {
   border-color: #1175bc;
   width: auto !important;
+  border-radius: 15px;
+
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .services-section .card img {
@@ -126,6 +130,16 @@ body {
   width: 50px;
 
   margin: 15px 0px 0px 15px;
+}
+
+.services-section .card-body .card-title {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.services-section .card-body .card-text {
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .products-section .card {

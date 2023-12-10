@@ -17,12 +17,12 @@ function Services() {
           <Col md={3}>
             <Card>
               <Card.Img variant='top' src={UI} />
-
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>UI/UX Design</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -32,10 +32,11 @@ function Services() {
               <Card.Img variant='top' src={Ecommerce} />
 
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>E-commerce solution</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -45,10 +46,11 @@ function Services() {
               <Card.Img variant='top' src={App} />
 
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Mobile apps development</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -58,10 +60,11 @@ function Services() {
               <Card.Img variant='top' src={Marketing} />
 
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Digital Marketing</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the cards content.
+                  Fortune tech offers resource augmentation for businesses,
+                  providing skilled professionals to enhance your team&apos;s
+                  capabilities.
                 </Card.Text>
               </Card.Body>
             </Card>
