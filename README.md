@@ -1,4 +1,4 @@
-# React Image Gallery
+# React Landing Page
 
 React Landing Page is a responsive landing page for Fortune Tech Limited built using React.
 
