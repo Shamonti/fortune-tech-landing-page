@@ -50,13 +50,13 @@ function Technology() {
           <Col xs={6} md={3} lg={2}>
             <img src={VueLogo} className='img-fluid' />
           </Col>
-          <Col xs={6} md={3} lg={2} className='pt-3'>
+          <Col xs={6} md={3} lg={2} className='pt-3 pt-md-0'>
             <img src={AzureLogo} className='img-fluid' />
           </Col>
-          <Col xs={6} md={3} lg={2} className='pt-3'>
+          <Col xs={6} md={3} lg={2} className='pt-3  pt-md-0'>
             <img src={IonicLogo} className='img-fluid' />
           </Col>
-          <Col xs={6} md={3} lg={2} className='pt-3'>
+          <Col xs={6} md={3} lg={2} className='pt-3  pt-md-0'>
             <img src={ReactNativeLogo} className='img-fluid' />
           </Col>
         </Row>

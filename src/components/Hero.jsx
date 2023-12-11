@@ -9,7 +9,7 @@ function Hero() {
     <section className='hero-section'>
       <Container className='ps-md-5 ps-3'>
         <Row>
-          <Col md={12} lg={8}>
+          <Col md={12} lg={10}>
             <h1>
               Innovate. Create. Elevate Transforming Ideas <br></br> with{' '}
               <span className='green-text'>Fortune Tech</span>
@@ -17,7 +17,7 @@ function Hero() {
           </Col>
         </Row>
         <Row>
-          <Col md={12} lg={7}>
+          <Col md={12} lg={8}>
             <p>
               Empower Your Business with Fortune Tech Limited. Unlock
               cutting-edge solutions to outpace competition. Specializing in

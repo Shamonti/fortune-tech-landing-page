@@ -120,7 +120,7 @@ body {
   border-color: #1175bc;
   width: auto !important;
   border-radius: 15px;
-  height: 300px;
+  height: 300px !important;
 
   padding-top: 20px;
   padding-bottom: 30px;
@@ -314,7 +314,7 @@ footer span {
   }
 
   .services-section .card {
-    height: auto;
+    height: max-content !important;
   }
 
   .next-arrow {
@@ -339,7 +339,7 @@ footer span {
   }
 
   .services-section .card {
-    height: auto;
+    height: max-content !important;
   }
 
   .section-stats .card-body {
@@ -367,6 +367,9 @@ footer span {
 /* Large devices (desktops) */
 @media only screen and (min-width: 992px) {
   /* Styles for screens 992px and larger */
+  .services-section .card {
+    height: 280px !important;
+  }
 }
 
 /* Extra large devices (large desktops) */
