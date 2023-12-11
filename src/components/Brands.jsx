@@ -11,7 +11,7 @@ function Brands() {
           </Col>
         </Row>
         <Row className='d-flex justify-content-center'>
-          <Col md={9}>
+          <Col xs={9} md={9}>
             <ImageSlider />
           </Col>
         </Row>

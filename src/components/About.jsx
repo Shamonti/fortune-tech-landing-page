@@ -9,7 +9,7 @@ function About() {
     <section className='about-section'>
       <Container>
         <Row className='margin'>
-          <Col>
+          <Col sm={12} md={4}>
             <Card>
               <div className='circle'>
                 <Card.Img variant='top' src={Code} />
@@ -24,7 +24,7 @@ function About() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col sm={12} md={4}>
             <Card>
               <div className='circle'>
                 <Card.Img variant='top' src={People} />
@@ -39,7 +39,7 @@ function About() {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col sm={12} md={4}>
             <Card>
               <div className='circle'>
                 <Card.Img variant='top' src={Doctor} />

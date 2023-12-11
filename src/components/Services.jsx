@@ -14,7 +14,7 @@ function Services() {
           <p className='sub-heading'>Top notch services we offer</p>
         </Row>
         <Row className='pt-3'>
-          <Col md={6} lg={3} className='pb-md-4'>
+          <Col md={6} lg={3} className='pb-4 pb-lg-0'>
             <Card>
               <Card.Img variant='top' src={UI} />
               <Card.Body>
@@ -27,7 +27,7 @@ function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3} className='pb-4 pb-lg-0'>
             <Card>
               <Card.Img variant='top' src={Ecommerce} />
 
@@ -41,7 +41,7 @@ function Services() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6} lg={3}>
+          <Col md={6} lg={3} className='pb-4 pb-md-0'>
             <Card>
               <Card.Img variant='top' src={App} />
 

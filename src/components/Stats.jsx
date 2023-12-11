@@ -13,7 +13,7 @@ function Stats() {
           </Col>
         </Row>
         <Row className='pt-5'>
-          <Col>
+          <Col xs={12} md={4}>
             <Card>
               <CardBody>
                 <div>
@@ -23,8 +23,8 @@ function Stats() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
-            <Card>
+          <Col xs={12} md={4} className='pt-3 pt-md-0'>
+            <Card className='mt-md-6'>
               <CardBody>
                 <div>
                   <CountUp delay={3} end={7} />+
@@ -33,7 +33,7 @@ function Stats() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
+          <Col xs={12} md={4} className='pt-3 pt-md-0'>
             <Card>
               <CardBody>
                 <div>
@@ -44,8 +44,8 @@ function Stats() {
             </Card>
           </Col>
         </Row>
-        <Row className='pt-5'>
-          <Col>
+        <Row className='pt-3'>
+          <Col xs={12} md={4}>
             <Card>
               <CardBody>
                 <div>
@@ -55,7 +55,7 @@ function Stats() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
+          <Col xs={12} md={4} className='pt-3 pt-md-0'>
             <Card>
               <CardBody>
                 <div>
@@ -65,7 +65,7 @@ function Stats() {
               </CardBody>
             </Card>
           </Col>
-          <Col>
+          <Col xs={12} md={4} className='pt-3 pt-md-0'>
             <Card>
               <CardBody>
                 <div>

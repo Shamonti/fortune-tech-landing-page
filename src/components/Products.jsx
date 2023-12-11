@@ -15,9 +15,9 @@ function Products() {
           </p>
         </Row>
         <Row className='pt-3'>
-          <Col md={12} className='pb-4'>
+          <Col md={12} lg={4} className='pb-4'>
             <Card>
-              <Card.Img variant='top' src={CareMeLogo} />
+              <Card.Img variant='top' src={CareMeLogo} className='img-fluid' />
 
               <Card.Body>
                 <Card.Title>Fortune Commerce</Card.Title>
@@ -29,9 +29,9 @@ function Products() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={12} className='pb-4'>
+          <Col md={12} lg={4} className='pb-4'>
             <Card>
-              <Card.Img variant='top' src={FortuneLogo} />
+              <Card.Img variant='top' src={FortuneLogo} className='img-fluid' />
 
               <Card.Body>
                 <Card.Title>Fortune Inventory</Card.Title>
@@ -43,9 +43,9 @@ function Products() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={12}>
+          <Col md={12} lg={4}>
             <Card>
-              <Card.Img variant='top' src={ProtonLogo} />
+              <Card.Img variant='top' src={ProtonLogo} className='img-fluid' />
 
               <Card.Body>
                 <Card.Title> Mobile apps</Card.Title>

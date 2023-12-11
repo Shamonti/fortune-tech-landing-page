@@ -120,6 +120,7 @@ body {
   border-color: #1175bc;
   width: auto !important;
   border-radius: 15px;
+  height: 300px;
 
   padding-top: 20px;
   padding-bottom: 30px;
@@ -147,14 +148,14 @@ body {
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding-top: 20px;
-  margin-right: 25px;
+  /* margin-right: 5px; */
 }
 
-.products-section .card img {
+.products-section .card .card-img-top {
   height: 80px;
   width: min-content;
 
-  margin: 15px 0px 0px 15px;
+  margin: 15px 0px 0px 5px;
 }
 
 .products-section .card-body {
@@ -298,8 +299,31 @@ footer span {
 }
 
 /* Small devices (phones) */
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
   /* Styles for screens 576px and larger */
+  .hero-section h1 {
+    font-size: 32px;
+  }
+
+  .about-section .card {
+    margin-bottom: 20px;
+  }
+
+  .about-section .margin {
+    margin-top: -20px;
+  }
+
+  .services-section .card {
+    height: auto;
+  }
+
+  .next-arrow {
+    right: -30px;
+  }
+
+  .prev-arrow {
+    left: -30px;
+  }
 }
 
 /* Medium devices (tablets) */
@@ -314,11 +338,29 @@ footer span {
     height: 280px;
   }
 
-  .products-section .card img {
-    height: 80px;
-    width: min-content;
+  .services-section .card {
+    height: auto;
+  }
 
-    margin: 15px 0px 0px 15px;
+  .section-stats .card-body {
+    font-size: 30px;
+    font-weight: 900;
+
+    padding: 20px 0 20px 0;
+  }
+
+  .section-stats .card-body p {
+    font-size: 18px;
+
+    padding-top: 10px;
+  }
+
+  footer h5 {
+    font-size: 16px;
+  }
+
+  footer li {
+    font-size: 12px;
   }
 }
 

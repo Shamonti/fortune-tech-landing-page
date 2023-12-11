@@ -7,7 +7,7 @@ import logo from '../assets/logo.png';
 function Menu() {
   return (
     <Navbar expand='lg' className='bg-white'>
-      <Container className='ps-5'>
+      <Container className='ps-lg-5'>
         <Navbar.Brand href='#home' className='pe-5' active>
           <img src={logo} />
         </Navbar.Brand>

@@ -7,7 +7,7 @@ import Calendar from '../assets/calendar.png';
 function Hero() {
   return (
     <section className='hero-section'>
-      <Container className='ps-5'>
+      <Container className='ps-md-5 ps-3'>
         <Row>
           <Col md={12} lg={8}>
             <h1>

@@ -6,7 +6,11 @@ function Experience() {
     <section className='experience-section section-padding'>
       <Container>
         <Row>
-          <Col className='d-flex flex-column justify-content-center'>
+          <Col
+            sm={12}
+            md={6}
+            className='d-flex flex-column justify-content-center'
+          >
             <h3>
               7 Years of Experience in the{' '}
               <span className='green-text'>
@@ -21,8 +25,8 @@ function Experience() {
               reliability stands unwavering.
             </p>
           </Col>
-          <Col>
-            <img src={Mockup} />
+          <Col sm={12} md={6} className='d-flex align-items-center'>
+            <img src={Mockup} className='img-fluid' />
           </Col>
         </Row>
       </Container>

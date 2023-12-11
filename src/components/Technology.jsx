@@ -27,37 +27,37 @@ function Technology() {
           </Col>
         </Row>
         <Row className='pt-3'>
-          <Col>
-            <img src={GoLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={GoLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={DotnetLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={DotnetLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={FlutterLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={FlutterLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={AngularLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={AngularLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={PythonLogo} />
+          <Col fs-xs-1={2} md={3} lg={2} className='pt-3'>
+            <img src={PythonLogo} className='img-fluid' />
           </Col>
         </Row>
         <Row className='pt-3'>
-          <Col>
-            <img src={ReactLogo} />
+          <Col xs={6} md={3} lg={2}>
+            <img src={ReactLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={VueLogo} />
+          <Col xs={6} md={3} lg={2}>
+            <img src={VueLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={AzureLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={AzureLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={IonicLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={IonicLogo} className='img-fluid' />
           </Col>
-          <Col>
-            <img src={ReactNativeLogo} />
+          <Col xs={6} md={3} lg={2} className='pt-3'>
+            <img src={ReactNativeLogo} className='img-fluid' />
           </Col>
         </Row>
       </Container>
